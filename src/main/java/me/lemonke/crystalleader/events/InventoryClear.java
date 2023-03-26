@@ -10,7 +10,7 @@ public class InventoryClear implements Listener {
     @EventHandler
     public void Clear(PlayerJoinEvent event) {
         FileConfiguration config = CrystalLeader.getInstance().getConfig();
-        if (!config.getBoolean("InventoryClear.enable")) return;
+        if (!config.getBoolean("RespawnRegular.clearinventory")) return;
         event.getPlayer().getInventory().clear();
     }
 }
