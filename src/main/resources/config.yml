@@ -3,9 +3,6 @@ FrameItems:
   title: "&6&lFrameItems &8>>"
   size: 9
 
-InventoryClear:
-  enable: true
-
 ArenaClear:
   arena1:
     world: "world"
@@ -36,6 +33,7 @@ ArenaClear:
       - "BARRIER"
       - "COMMAND_BLOCK"
 RespawnRegular:
+  clearinventory: true
   enable: true
   world: 'world_nether'
   x: 0
