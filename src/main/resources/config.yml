@@ -1,0 +1,48 @@
+FrameItems:
+  enable: true
+  title: "&6&lFrameItems &8>>"
+  size: 9
+
+InventoryClear:
+  enable: true
+
+ArenaClear:
+  arena1:
+    world: "world"
+    from:
+      x: 0
+      y: 0
+      z: 0
+    to:
+      x: 50
+      y: 50
+      z: 50
+    ExceptBlocks:
+      - "BEDROCK"
+      - "BARRIER"
+      - "COMMAND_BLOCK"
+  nether:
+    world: "world_nether"
+    from:
+      x: 0
+      y: 0
+      z: 0
+    to:
+      x: 50
+      y: 50
+      z: 50
+    ExceptBlocks:
+      - "BEDROCK"
+      - "BARRIER"
+      - "COMMAND_BLOCK"
+
+RespawnRegular:
+  enable: true
+  world: 'world_nether'
+  x: 0
+  y: 50
+  z: 0
+
+# Anti Cheat
+LimitCrystalAura: true
+CrystalDelay: 10 # This is in ticks, 1 second = 20

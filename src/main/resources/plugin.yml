@@ -1,0 +1,7 @@
+name: CrystalLeader
+version: '${version}'
+main: me.lemonke.crystalleader.CrystalLeader
+api-version: 1.17
+softdepend: [ PlaceholderAPI ]
+authors: [ Fin_LemonKee ]
+description: a plugin for crystal pvp
